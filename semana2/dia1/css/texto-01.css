@@ -1,0 +1,16 @@
+body{
+    background-color: beige;
+}
+
+.cabecera h1{
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    
+}
+
+.seccion h3{
+    font: italic 500 40px Arial;
+}

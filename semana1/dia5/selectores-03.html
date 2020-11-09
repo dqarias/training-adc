@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Estilos CSS -->
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+
+        #cabecera{
+            background-color: tomato;
+        }
+        #cabecera h1{
+            color: yellow;
+        }
+        #navegacion{
+            background-color: violet;
+        }
+
+        aside{
+            background-color: thistle;
+        }
+
+        aside h4{
+            color: red;
+        }
+
+        .principal{
+            background-color: wheat;
+        }
+
+       .principal > h5{
+            color: green;
+        }
+
+        .principal p{
+            color: turquoise;
+        }
+
+        .piepagina{
+            background-color: honeydew;
+        }
+
+        .piepagina > p{
+            color: red;
+        }
+
+        .piepagina .piepagina__cuerpo{
+            color: green;
+        }
+        
+        
+    </style>
+
+</head>
+<body>
+    <header id="cabecera">
+        <h1>Selectores CSS 3</h1>
+        <h3>Concepto de Selectores</h3>
+    </header>
+    <nav id="navegacion">
+        <h3>Navegacion Estilos</h3>
+    </nav>
+    <aside>
+        <h4>Esto es Aside</h4>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </aside>
+    <main class="principal">
+        <h5 >Tipo de Estilos</h5>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, tempora!</p>
+            <section>
+                <h5 >Esto no deberia pintar</h5>
+            </section>
+    </main>
+    <section >
+        <h5 class="principal__titulo">esto es parrafo de seccion</h5>
+    </section>
+    <footer class="piepagina">
+        <p>Estom es el titulo de la informacion de pie</p>
+        <section>
+            <p class="piepagina__cuerpo"> Esto es parte de la informacion de pie pagina</p>
+        </section>
+    </footer>
+    
+ 
+</body>
+</html>
