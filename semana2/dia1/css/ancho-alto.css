@@ -1,0 +1,33 @@
+header{
+    background-color: rosybrown;
+}
+.contenedor{
+    background-color: rgba(100, 137, 240, 0.7);
+    /* ancho */
+     /* width: 900px;  */
+    /* alto */
+    /* height: 120px; */
+    /* controlar el desborde de los hijos */
+    /* overflow: hidden; */
+    /* si el contendo es grande y no lo veo puedo dibujar un scroll */
+    /* overflow-y: scroll; */
+    /* margin = margen o espaciado externo de un elemento */
+     margin: 40px 120px; 
+     /* padding = margen o espaciado interno de un elemento */
+     padding: 40px;
+
+}
+
+.contenedor__articulo--parrafo{
+    background-color: rgba(49, 117, 180, 0.7);
+    /* margin: arriba-abajo, derecha-izquierda */
+    margin: 20px 60px;
+    /* padding: arriba derecha abajo izquierda */
+    padding: 50px 0px 0px 20px ;
+}
+
+.contenedor__articulo--detalle{
+    background-color: rgba(124, 221, 132, 0.7);
+    margin: 60px;
+    padding: 60px;
+}

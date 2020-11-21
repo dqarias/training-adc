@@ -1,0 +1,13 @@
+.contenedor__articulo{
+    /* hexadecimal */
+    background-color: #dd272752;
+}
+
+.contenedor__articulo--parrafo{
+    background-color: rgba(255, 255, 0, 0.226)
+}
+
+.contenedor__articulo--detalle{
+    background-color: hsla(0, 100%, 50%, 0.61);
+}
+

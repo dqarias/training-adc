@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap');
+
+header{
+background-color: bisque;
+}
+
+.contenedor__articulo{
+
+background-color: beige;
+
+}
+
+.contenedor__articulo h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: normal; 
+    color: red;
+    text-align: right;
+    /* espaciado entre letra y letra */
+    letter-spacing: 4px;
+    /* espaciado entre palabra y palabra */
+    word-spacing: 8px;
+}
+
+.contenedor__articulo--parrafo{
+    /* propiedades de font en una linea */
+    /* Orden: style weight size family */
+    font : italic 700 16px Arial;
+    color: cadetblue;
+}
+
+.contenedor__articulo--detalle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
