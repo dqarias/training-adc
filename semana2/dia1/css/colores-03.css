@@ -1,13 +1,16 @@
 .contenedor__articulo{
     /* hexadecimal */
-    background-color: #dd272752;
+    background-color: #d13e3e98;
+    
 }
 
 .contenedor__articulo--parrafo{
-    background-color: rgba(255, 255, 0, 0.226)
+    background-color: rgba(255, 255, 0, 0.514); 
+    /* background-color: hsla(0, 100%, 50%, 0.473);
+    background-color: #181bd498; */
 }
 
 .contenedor__articulo--detalle{
-    background-color: hsla(0, 100%, 50%, 0.61);
+    background-color: hsla(0, 100%, 50%, 0.473);
 }
 

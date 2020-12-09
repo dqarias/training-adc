@@ -1,0 +1,13 @@
+header{
+    background-color: indigo;
+    margin: 30px;
+    padding-left: 50px ;
+    /* padding-top: 50px; */
+}
+
+.contenedor{
+    background-color: khaki;
+    margin: 0px 30px;
+    padding: 10px 30px;
+ 
+}
